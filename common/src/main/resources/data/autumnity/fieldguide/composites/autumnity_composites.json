@@ -36,10 +36,7 @@
       "id": "autumnity:large_pumpkin_slice",
       "components": [
         "autumnity:large_pumpkin_slice"
-      ]
-    },
-    {
-      "id": "autumnity:large_pumpkin_slice",
+      ],
       "render": [
         "0,0,0|autumnity:large_pumpkin_slice|facing=north,half=bottom",
         "0,0,1|autumnity:large_pumpkin_slice|facing=west,half=bottom",
@@ -49,6 +46,17 @@
         "0,1,1|autumnity:large_pumpkin_slice|facing=west,half=top",
         "1,1,1|autumnity:large_pumpkin_slice|facing=south,half=top",
         "1,1,0|autumnity:large_pumpkin_slice|facing=east,half=top"
+      ]
+    },
+    {
+      "id": "autumnity:foul_berry_bush",
+      "render": [
+        "autumnity:tall_foul_berry_bush|age=3,half=lower",
+        "autumnity:tall_foul_berry_bush|age=3,half=upper"
+      ],
+      "components": [
+        "autumnity:foul_berry_bush",
+        "autumnity:tall_foul_berry_bush"
       ]
     }
   ]
